@@ -1,0 +1,105 @@
+
+.relative{
+	position: relative;
+	width: 100%;
+	height: 750px;
+	margin: 0 auto;
+	/*border: 2px solid;*/
+}
+.background{
+	position: absolute;
+	width: 100%;
+	height: 750px;
+}	
+.simba{
+	position: absolute;
+	width: 200px;
+	height:200;
+	top: 40%;
+	left: 10%;
+	animation: simba 10s infinite;
+	transition-duration: 3s;
+}
+@keyframes simba{
+	from {left: 10%;}
+	to {left: 35%;}
+}
+.simba:hover{
+    width:300px;
+}
+
+.nala{
+	position: absolute;
+	width: 230px;
+	height: 200px;
+	top: 44%;
+	right: 10%;
+	animation:nala 10s infinite ;
+	/*transition-duration: 3s;*/
+	z-index: 1;
+}
+
+@keyframes nala{
+	from {right: 25%;}
+	to {right: 35%;}
+}
+.zazu{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 5%;
+	right: 0;
+	transition-property: all;
+	transition-duration: 5s;
+	transition-delay: 1s;
+	animation: zazu 30s infinite linear;
+	z-index: 1;
+	
+}
+@keyframes zazu{
+	/*from {top: 5%;}
+	to {top: 30%;}
+	to {right: 48%;}*/
+	0% {top: 0;left: 0;}
+	25% {top: 0;left: 90%;}
+	50% {top: 90%;left: 90%;}
+	75% {top: 90%;left: 0;}
+	100% {top: 0; left: 0;}
+
+
+	
+}
+.zazu:hover{
+	transform: rotate(360deg);
+	width: 110px;
+}
+.scar{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 45%;
+	right: 5%;
+	transition: all 3s;
+}
+.scar:hover{
+	width: 280px;
+}
+.timo{
+	width: 150px;
+	height: 120px;
+	position: absolute;
+	top: 0%;
+	left: 5%;
+	transition: 3s infinite;
+	animation:timo 20s infinite;
+}
+@keyframes timo{
+	from {top: 5%;}
+	to {left: 50%;}
+	/*to {top: 5%;}*/
+}
+.timo:hover{
+	width: 160px;
+}
+
+
