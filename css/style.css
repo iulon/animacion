@@ -19,6 +19,7 @@
 	left: 10%;
 	animation: simba 10s infinite;
 	transition-duration: 3s;
+
 }
 @keyframes simba{
 	from {left: 10%;}
@@ -54,6 +55,7 @@
 	transition-delay: 1s;
 	animation: zazu 30s infinite linear;
 	z-index: 1;
+
 	
 }
 @keyframes zazu{
@@ -61,9 +63,9 @@
 	to {top: 30%;}
 	to {right: 48%;}*/
 	0% {top: 0;left: 0;}
-	25% {top: 0;left: 90%;}
-	50% {top: 90%;left: 90%;}
-	75% {top: 90%;left: 0;}
+	25% {top: 0;left: 90%;transform: rotate(90deg);}
+	50% {top: 90%;left: 90%;transform: rotate(180deg);}
+	75% {top: 90%;left: 0;transform: rotate(360deg);}
 	100% {top: 0; left: 0;}
 
 
