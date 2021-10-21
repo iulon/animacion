@@ -14,7 +14,7 @@
 .simba{
 	position: absolute;
 	width: 200px;
-	height:200;
+	height:200px;
 	top: 40%;
 	left: 10%;
 	animation: simba 10s infinite;
@@ -92,7 +92,7 @@
 	position: absolute;
 	top: 0%;
 	left: 5%;
-	transition: 3s infinite;
+	transition: 3s;
 	animation:timo 20s infinite;
 }
 @keyframes timo{
